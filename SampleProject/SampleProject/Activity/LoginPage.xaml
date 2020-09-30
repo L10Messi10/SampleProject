@@ -14,7 +14,10 @@
                        Placeholder="Password" IsPassword="True"/>
                 <Button Text="Login" Clicked="Button_OnClicked"/>
                 <Label Text="Don't have an account yet?"
-                       Margin="0,115,0,0"/>
+                       Margin="0,90,0,0"/>
+                <Button Margin="165,-35,30,0" Text="Sign-up"
+                        BackgroundColor="Transparent" FontSize="12"
+                        x:Name="btnsignup" Clicked="Btnsignup_OnClicked"/>
             </StackLayout>
         </Frame>
     </StackLayout>

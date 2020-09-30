@@ -38,6 +38,11 @@ namespace SampleProject.Activity
                 await DisplayAlert("Error", "Email not found!", "OK");
             }
         }
+
+        private async void Btnsignup_OnClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new SignupPage());
+        }
     }
 }
 //var users = (await MobileService.GetTable<TBL_Users>().Where(mail => mail.emailadd == emailentry.Text).ToListAsync()).FirstOrDefault();

@@ -12,7 +12,6 @@ namespace SampleProject
         public App()
         {
             InitializeComponent();
-
             MainPage = new NavigationPage(new LoginPage());
         }
 
